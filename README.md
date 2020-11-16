@@ -1,16 +1,8 @@
-# hello_me
+1)
+המחלקה היא SnappingSheetController היא מאפשרת לשלוט על ה-snap position של ה-snappingsheet. כלומר היא מאפשרת שליטה על המיקום העכשווי של ה- snappingsheet ושולטת על ה-snapPositions של- snappingsheet יש.
+2)
+הפרמטר שמאפשר שליטה על זה הוא ה-snappingCurve שנמצא במחלקה של ה-snapPosition. כלומר ה-snappingSheet יעשה snap ל-snapPosition מסויים לפי האנימציה שהוגדרה ב- snappingCurve של ה-snapPosition המדובר.
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3)
+אחד היתרונות של inkwell שהוא מאפשר תגובה למגע עם ink splash,אפליקציות במטריאל דיזיין בדרכ מגיבות כך למגע לעומת השני שלא מאפשר.
+GestureDetectore- מאפשר יותר שליטה, לדוגמא הוא מאפשר תגובה ביחס לגרירה לעומת השני שלא מאפשר.

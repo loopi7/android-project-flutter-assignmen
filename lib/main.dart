@@ -323,11 +323,13 @@ class _LoginPageState extends State<LoginPage> {
               isScrollControlled: true,
               builder: (context) => SingleChildScrollView(
                 child: Container(
+
                     padding: EdgeInsets.only(
                         bottom: MediaQuery.of(context).viewInsets.bottom),
                     child: Container(
                       height: 180.0,
                       child: ListView(
+                        padding: EdgeInsets.only(left: 10.0, right: 10.0),
                         children: [
                           SizedBox(height: 10),
                           Center(
@@ -373,7 +375,7 @@ class _LoginPageState extends State<LoginPage> {
           centerTitle: true,
         ),
         body: Builder(
-          builder: (context) => ListView(//padding: EdgeInsets.only(top: 40),
+          builder: (context) => ListView(padding: EdgeInsets.only(left: 10.0, right: 10.0),
               children: [
             SizedBox(height: 30),
             welcomTest,
