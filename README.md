@@ -1,9 +1,9 @@
 1)
-המחלקה היא SnappingSheetController היא מאפשרת לשלוט על ה-snap position של ה-snappingsheet. כלומר היא מאפשרת שליטה על המיקום העכשווי של ה- snappingsheet ושולטת על ה-snapPositions של- snappingsheet יש.
+The class is SnappingSheetController and it enables control on the snapp position of the snappingSheet. it enables control on the current position of the snappingsheet and on the snapPositions of the snappingsheet.
 
 2)
-הפרמטר שמאפשר שליטה על זה הוא ה-snappingCurve שנמצא במחלקה של ה-snapPosition. כלומר ה-snappingSheet יעשה snap ל-snapPosition מסויים לפי האנימציה שהוגדרה ב- snappingCurve של ה-snapPosition המדובר.
+The parameter that enables control is snappingCurve in the class snapPosition. The snappingSheet will snap to the snapPosition according to the animation that is being defined  by the snapPosition's  snappingCurve.
 
 3)
-אחד היתרונות של inkwell שהוא מאפשר תגובה למגע עם ink splash,אפליקציות במטריאל דיזיין בדרכ מגיבות כך למגע לעומת השני שלא מאפשר.
-GestureDetectore- מאפשר יותר שליטה, לדוגמא הוא מאפשר תגובה ביחס לגרירה לעומת השני שלא מאפשר.
+One of the advanages of Inkwell is that it enables response to touches with ink splash. Material design apps typically react to touches by  ink splash. GestureDetectore doesn’t enable it.
+GestureDetectore provides more control, for example it enables dragging meaning it enables response to dragging. Inkwell doesn’t enable it.
