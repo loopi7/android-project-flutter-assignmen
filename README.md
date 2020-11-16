@@ -1,5 +1,6 @@
 1)
 המחלקה היא SnappingSheetController היא מאפשרת לשלוט על ה-snap position של ה-snappingsheet. כלומר היא מאפשרת שליטה על המיקום העכשווי של ה- snappingsheet ושולטת על ה-snapPositions של- snappingsheet יש.
+
 2)
 הפרמטר שמאפשר שליטה על זה הוא ה-snappingCurve שנמצא במחלקה של ה-snapPosition. כלומר ה-snappingSheet יעשה snap ל-snapPosition מסויים לפי האנימציה שהוגדרה ב- snappingCurve של ה-snapPosition המדובר.
 
